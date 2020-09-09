@@ -1,9 +1,12 @@
 @import './base/variables';
 @import './base/base';
 
+@import './components/app';
+@import './components/layout';
+@import './components/search';
+
+@import './layout/navbar';
 
 @import './templates/login';
+@import './templates/dashboard';
 
-.layout{
-    background: $background-color;
-}

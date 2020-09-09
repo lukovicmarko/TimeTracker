@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;    
+    a{
+        text-decoration: none;
+        padding-right: 50px;
+        color: $color-grey;
+    }
+
+    &__profile{
+        display: flex;
+        &-img{
+            width: 50px;
+            height: 50px;
+            margin-left: 50px;
+        }
+    }
+
+    .selected{
+        color:black;
+    }
+}
