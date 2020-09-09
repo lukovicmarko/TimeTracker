@@ -3,6 +3,31 @@
   padding: 0;
 }
 
+body {
+  font-family: "Poppins-Regular";
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
 .layout {
   border: 10px solid white;
   background: #F1F2F7;
@@ -68,6 +93,7 @@ textarea:focus, input:focus {
   text-decoration: none;
   padding-right: 50px;
   color: #9B9DAA;
+  font-family: "Poppins-Medium";
 }
 
 .navbar__profile {
@@ -83,6 +109,6 @@ textarea:focus, input:focus {
 }
 
 .navbar .selected {
-  color: black;
+  color: #192A3E;
 }
 /*# sourceMappingURL=styles.css.map */

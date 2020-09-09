@@ -6,6 +6,7 @@
         text-decoration: none;
         padding-right: 50px;
         color: $color-grey;
+        font-family: "Poppins-Medium";
     }
 
     &__profile{
@@ -18,6 +19,6 @@
     }
 
     .selected{
-        color:black;
+        color:$color-black;
     }
 }
