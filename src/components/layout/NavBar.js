@@ -5,7 +5,7 @@ import Search from './Search';
 function NavBar() {
     return (
         <nav className="navbar">
-            <div>
+            <div className="navbar__links">
                 <NavLink to="/" activeClassName="selected" exact={true}>Time</NavLink>
                 <NavLink to="/expense" activeClassName="selected">Expense</NavLink>
                 <NavLink to="/projects" activeClassName="selected">Projects</NavLink>

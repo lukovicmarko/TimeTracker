@@ -1,0 +1,35 @@
+.time{
+    padding: 30px 50px;   
+
+    &__information{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        padding-top: 50px;
+        border-top: 2px solid $border-color;
+
+        &-timer{           
+            font-family: 'NotoSerif-Regular';       
+            display: flex;   
+            justify-content: space-between;
+        }
+
+        &-clock{
+            text-align: center;
+            h1{
+                color: $color-black;
+                font-family: 'NotoSerif-Regular';  
+                font-size: 200px;
+            }
+        }
+    }
+
+    .quantity{
+        display: flex;
+        font-size: 40px;
+    }
+
+    .timer-button{
+        border: none;
+        background-color: $color-white;
+    }
+}

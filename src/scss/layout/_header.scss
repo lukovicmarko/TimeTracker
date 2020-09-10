@@ -1,0 +1,15 @@
+.header{
+    &__date{      
+        display: inline-block;
+        border-right: 2px solid $border-color;        
+        padding-right: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+.date{
+    color: $color-black;
+    font-family: 'NotoSerif-Regular';  
+    font-size: 35px;
+    margin-top: 15px;
+}
